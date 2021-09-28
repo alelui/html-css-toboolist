@@ -18,3 +18,69 @@
     display: inline;
     margin: 0 10px;
 }
+
+
+
+/* ******* main ********** */
+
+/* *** top *** */
+
+
+
+.container-main{
+    padding: 10px;
+    background-color: rgb(235, 231, 231);
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.main-top{
+    height: 40px;
+    border-bottom: 1px solid lightgrey;
+
+    
+}
+
+.main-top button{
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.main-top span{
+    font-size: 12px;
+    padding: 8px;
+}
+
+.main-top .blue{
+    background-color: blue;
+    color: white;
+    margin-left: 30px;
+}
+
+.grey{
+    background-color: white;
+    color: lightgrey;
+}
+
+
+
+
+/* *** bottom ***  */
+
+
+.main-bottom{
+    padding: 30px;
+}
+
+.main-bottom button{
+    border-radius: 10%
+}
+
+.main-bottom button{
+    font-size: 8px;
+}

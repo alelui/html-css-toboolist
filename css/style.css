@@ -12,12 +12,12 @@ body{
 }
 
 .container-md{
-    width: 70%;
+    width: 60%;
     margin: 50px auto 0px;
     background-color: white;
 
     /* da rimuover */
-    height: 500px;
+    /* height: 500px; */
 }
 
 li{
@@ -112,7 +112,7 @@ section{
 }
 
 .spazio-riga{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 

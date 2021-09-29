@@ -1,3 +1,4 @@
+
 /* *** commons *** */
 *{
     margin: 0;
@@ -26,7 +27,6 @@ li{
 
 
 
-
 /* *** header ***  */
 
 header{
@@ -52,14 +52,17 @@ header{
 
 /* *** main-top *** */
 
-.main-top{
-    border-bottom: 1px solid rgb(230, 230, 230);
+.main-top, .main-bottom{
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 7px;
 }
 
-.main-top button{
+.main-top{
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+button{
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -73,18 +76,12 @@ header{
 .white{
     background-color: white;
     color: rgb(184, 184, 184);
-    border: 1px solid grey;
+    border: 1px solid rgb(230, 230, 230);
 }
 
 
 /* *** main-bottom *** */
 
-
-.main-bottom{
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 7px;
-}
 
 
 .description::before{
